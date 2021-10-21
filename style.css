@@ -20,9 +20,16 @@
     color: 0c65be;
 }
 
-.avengerpied{
+
+
+/* @media screen and (max-width: 600px){  */
+    
+
+
+ .avengerpied{
     background-size: auto;
-    background: url("img/footer\ 2.jpg");
+    background: url("img/footer2.jpg");
     background-repeat: no-repeat;
     height: 60vh;
 }
+/* } */
