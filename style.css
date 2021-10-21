@@ -1,0 +1,16 @@
+.avengerentete {
+    background-size: auto;
+    background: url("img/marvels-the-avengers-504925d6dca45.jpg");
+    
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+
+.ironman{
+    background-size: auto;
+    background: url("img/marvels-the-avengers-504925d6dca45.jpg");
+    
+    background-repeat: no-repeat;
+    height: 10vh;
+    width: 10vh;
+}
