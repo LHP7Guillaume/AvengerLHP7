@@ -1,16 +1,28 @@
 .avengerentete {
     background-size: auto;
-    background: url("img/marvels-the-avengers-504925d6dca45.jpg");
-    
+    background: url("img/marvels-the-avengers-504925d6dca45.jpg") fixed top;
+ 
     background-repeat: no-repeat;
     height: 60vh;
 }
 
-.ironman{
+.photominiature{
+    height: 4rem;
+    width: auto;
+}
+
+.colorrouge{
+    color: 871e3c;
+}
+
+.colorbleu{
+
+    color: 0c65be;
+}
+
+.avengerpied{
     background-size: auto;
-    background: url("img/marvels-the-avengers-504925d6dca45.jpg");
-    
+    background: url("img/footer\ 2.jpg");
     background-repeat: no-repeat;
-    height: 10vh;
-    width: 10vh;
+    height: 60vh;
 }
