@@ -1,5 +1,6 @@
 .avengerentete {
-    background-size: auto;
+    background-size: cover;
+    object-fit: cover;
     background: url("img/marvels-the-avengers-504925d6dca45.jpg") fixed top;
  
     background-repeat: no-repeat;
@@ -12,7 +13,7 @@
 }
 
 .colorrouge{
-    color: 871e3c;
+    color: #871e3c;
 }
 
 .colorbleu{
