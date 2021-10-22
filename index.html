@@ -5,18 +5,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
 
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!-- cdn -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
-<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
     <title>Avenger LHP7</title>
 </head>
 
-<body class="">
+<body class="bg-dark">
 
     <header>
         <!-- Background image -->
@@ -39,8 +39,9 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-dark sticky-top">
         <div class="container-fluid">
-            <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
-                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler bg-danger " type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
@@ -60,7 +61,7 @@
 
     <!-- photo et texte -->
 
-    <div class="ml-5 mt-5 container">
+    <div class="ml-5 mt-5 container bg-dark ">
 
         <div class="row p-6  ">
 
@@ -72,9 +73,9 @@
                         POUVOIR IMPLIQUE DE GRANDES RESPONSABILITÉS. »
                     </a></p>
 
-                <p class="text-center"><i class="mt-3 text-center"></i>L'homme Araigné</p>
-                <p class="text-center"><i class="mt-3 "></i>Peter Parker</p>
-                <p class="text-center"><i class="mt-3"></i>Photographe</p>
+                <p class="text-center text-white"><i class="mt-3 text-center"></i>L'homme Araigné</p>
+                <p class="text-center text-white"><i class="mt-3 "></i>Peter Parker</p>
+                <p class="text-center text-white"><i class="mt-3"></i>Photographe</p>
 
             </div>
 
@@ -83,13 +84,13 @@
 
 
             <div class="col-lg-8">
-                <table class="table table-striped">
+                <table class="table table-dark  table-striped">
                     <thead>
                         <tr>
                             <th scope="col">Photo</th>
                             <th scope="col">Identité</th>
                             <th scope="col">Héro</th>
-                            <th scope="col">Plus d'info</th>
+                            <th scope="col ">Plus d'info</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -114,12 +115,12 @@
                                 <!-- fin button trigger mondal -->
 
                                 <!-- Modal -->
-                                <div class="modal fade" id="exampleModal" tabindex="-1"
+                                <div class="modal fade " id="exampleModal" tabindex="-1"
                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Iron Man</h5>
+                                            <div class="col ">
+                                                <h5 class="text-center text-dark" id="exampleModalLabel">Iron Man</h5>
                                                 <!-- <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                     aria-label="Close"></button> -->
                                             </div>
@@ -134,11 +135,11 @@
                                                     <p class="fw-lighter text-truncate text-center"><a href="#"
                                                             class="text-secondary text-decoration-none">« On a un Hulk »
                                                         </a></p>
-
-                                                    <p class="text-center"><i class="mt-3 "></i>Boss en chef</p>
-                                                    <p class="text-center"><i class="mt-3 "></i>Tony Stark</p>
-                                                    <p class="text-center"><i class="mt-3 "></i>Milliardaire</p>
-
+                                                    <div class="text-dark">
+                                                        <p class="text-center"><i class="mt-3 "></i>Boss en chef</p>
+                                                        <p class="text-center"><i class="mt-3 "></i>Tony Stark</p>
+                                                        <p class="text-center"><i class="mt-3 "></i>Milliardaire</p>
+                                                    </div>
                                                 </div>
 
                                                 <!-- photo modal -->
@@ -171,7 +172,7 @@
                             <td class="pt-4">
 
                                 <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
                                     data-bs-target="#spiderman">
                                     Plus d'info
                                 </button>
@@ -183,8 +184,8 @@
                                     aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
-                                            <div class="modal-header">
-                                                <h5 class="modal-title" id="exampleModalLabel">Spiderman
+                                            <div class="col">
+                                                <h5 class="text-center text-dark" id="exampleModalLabel">Spiderman
                                                 </h5>
                                                 <!-- <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                     aria-label="Close"></button> -->
@@ -204,10 +205,10 @@
                                                             POUVOIR IMPLIQUE DE GRANDES RESPONSABILITÉS.»
                                                         </a></p>
 
-                                                    <p class="text-center"><i class="mt-3 "></i>L'araigné sympa du
+                                                    <p class="text-center text-dark"><i class="mt-3 "></i>L'araigné sympa du
                                                         quartier</p>
-                                                    <p class="text-center"><i class="mt-3 "></i>Peter Parker</p>
-                                                    <p class="text-center"><i class="mt-3 "></i>Photographe</p>
+                                                    <p class="text-center text-dark"><i class="mt-3 "></i>Peter Parker</p>
+                                                    <p class="text-center text-dark"><i class="mt-3 "></i>Photographe</p>
 
                                                 </div>
 
@@ -215,9 +216,9 @@
 
                                             </div>
                                             <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary"
+                                                <button type="button" class="btn btn-outline-danger"
                                                     data-bs-dismiss="modal">Oooh non!</button>
-                                                <button type="button" class="btn btn-primary">Go
+                                                <button type="button" class="btn btn-outline-success">Go
                                                     Spiderman !</button>
                                             </div>
                                         </div>
@@ -242,7 +243,7 @@
                             <td class="pt-4">
 
                                 <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
                                     data-bs-target="#Hulk">
                                     Plus d'info
                                 </button>
@@ -254,8 +255,8 @@
                                     aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
-                                            <div class="modal-header ">
-                                                <h5 class="modal-title" id="exampleModalLabel">Hulk
+                                            <div class="col ">
+                                                <h5 class="text-center text-dark" id="exampleModalLabel">Hulk
                                                 </h5>
                                                 <!-- <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                     aria-label="Close"></button> -->
@@ -272,10 +273,10 @@
                                                             class="text-secondary text-decoration-none">«Whouuuuuuaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa»
                                                         </a></p>
 
-                                                    <p class="text-center"><i class="mt-3"></i>Destructeur d'immeuble
+                                                    <p class="text-center text-dark"><i class="mt-3"></i>Destructeur d'immeuble
                                                     </p>
-                                                    <p class="text-center"><i class="mt-3 "></i>Bruce Baner</p>
-                                                    <p class="text-center"><i class="mt-3 "></i>Physicien</p>
+                                                    <p class="text-center text-dark"><i class="mt-3 "></i>Bruce Baner</p>
+                                                    <p class="text-center text-dark"><i class="mt-3 "></i>Physicien</p>
 
                                                 </div>
 
@@ -283,9 +284,9 @@
 
                                             </div>
                                             <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary"
+                                                <button type="button" class="btn btn-outline-danger"
                                                     data-bs-dismiss="modal">Oooh non!</button>
-                                                <button type="button" class="btn btn-primary">Go
+                                                <button type="button" class="btn btn-outline-success">Go
                                                     Hulk !</button>
                                             </div>
                                         </div>
@@ -310,7 +311,7 @@
                             <td class="pt-4">
 
                                 <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
                                     data-bs-target="#Thor">
                                     Plus d'info
                                 </button>
@@ -322,8 +323,8 @@
                                     aria-hidden="true">
                                     <div class="modal-dialog">
                                         <div class="modal-content">
-                                            <div class="modal-header ">
-                                                <h5 class="modal-title" id="exampleModalLabel">Thor
+                                            <div class="col ">
+                                                <h5 class="text-center text-dark" id="exampleModalLabel">Thor
                                                 </h5>
                                                 <!-- <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                     aria-label="Close"></button> -->
@@ -340,9 +341,9 @@
                                                             class="text-secondary text-decoration-none">«Par Odin !! »
                                                         </a></p>
 
-                                                    <p class="text-center"><i class="mt-3"></i>Dieu du tonnerre</p>
-                                                    <p class="text-center"><i class="mt-3 "></i>Thor</p>
-                                                    <p class="text-center"><i class="mt-3 "></i>Dieu</p>
+                                                    <p class="text-center text-dark"><i class="mt-3"></i>Dieu du tonnerre</p>
+                                                    <p class="text-center text-dark"><i class="mt-3 "></i>Thor</p>
+                                                    <p class="text-center text-dark"><i class="mt-3 "></i>Dieu</p>
 
                                                 </div>
 
@@ -350,9 +351,9 @@
 
                                             </div>
                                             <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary"
+                                                <button type="button" class="btn btn-outline-danger"
                                                     data-bs-dismiss="modal">Oooh non!</button>
-                                                <button type="button" class="btn btn-primary">Go
+                                                <button type="button" class="btn btn-outline-success">Go
                                                     Thor !</button>
                                             </div>
                                         </div>
@@ -377,7 +378,7 @@
                             <td class="pt-4">
 
                                 <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
                                     data-bs-target="#Captain">
                                     Plus d'info
                                 </button>
@@ -390,7 +391,7 @@
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                             <div class="col">
-                                                <h5 class="text-center" id="exampleModalLabel">Captain America
+                                                <h5 class="text-center text-dark" id="exampleModalLabel">Captain America
                                                 </h5>
                                                 <!-- <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                     aria-label="Close"></button> -->
@@ -409,9 +410,9 @@
                                                             »
                                                         </a></p>
 
-                                                    <p class="text-center"><i class="mt-3"></i>Captain America</p>
-                                                    <p class="text-center"><i class="mt-3 "></i>Steve Rogers</p>
-                                                    <p class="text-center"><i class="mt-3 "></i>Héro de Guerre</p>
+                                                    <p class="text-center text-dark"><i class="mt-3"></i>Captain America</p>
+                                                    <p class="text-center text-dark"><i class="mt-3 "></i>Steve Rogers</p>
+                                                    <p class="text-center text-dark"><i class="mt-3 "></i>Héro de Guerre</p>
 
                                                 </div>
 
@@ -419,9 +420,9 @@
 
                                             </div>
                                             <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary"
+                                                <button type="button" class="btn btn-outline-danger"
                                                     data-bs-dismiss="modal">Oooh non!</button>
-                                                <button type="button" class="btn btn-primary">Go
+                                                <button type="button" class="btn btn-outline-success">Go
                                                     Captain!</button>
                                             </div>
                                         </div>
@@ -446,7 +447,7 @@
                             <td class="pt-4">
 
                                 <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
                                     data-bs-target="#Rocket">
                                     Plus d'info
                                 </button>
@@ -459,7 +460,7 @@
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                             <div class="col">
-                                                <h5 class="text-center" id="exampleModalLabel">Rocket
+                                                <h5 class="text-center text-dark text-dark" id="exampleModalLabel">Rocket
                                                 </h5>
                                                 <!-- <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                     aria-label="Close"></button> -->
@@ -477,9 +478,9 @@
                                                             un lapin !! »
                                                         </a></p>
 
-                                                    <p class="text-center"><i class="mt-3"></i>Rocket</p>
-                                                    <p class="text-center"><i class="mt-3 "></i>Rocket Raccoon</p>
-                                                    <p class="text-center"><i class="mt-3 "></i>Gardien de la galaxie
+                                                    <p class="text-center text-dark"><i class="mt-3"></i>Rocket</p>
+                                                    <p class="text-center text-dark"><i class="mt-3 "></i>Rocket Raccoon</p>
+                                                    <p class="text-center text-dark"><i class="mt-3 "></i>Gardien de la galaxie
                                                     </p>
 
                                                 </div>
@@ -488,9 +489,9 @@
 
                                             </div>
                                             <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary"
+                                                <button type="button" class="btn btn-outline-danger"
                                                     data-bs-dismiss="modal">Oooh non!</button>
-                                                <button type="button" class="btn btn-primary">Go
+                                                <button type="button" class="btn btn-outline-success">Go
                                                     Rocket!</button>
                                             </div>
                                         </div>
@@ -516,7 +517,7 @@
                             <td class="pt-4">
 
                                 <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
                                     data-bs-target="#captainmarvel">
                                     Plus d'info
                                 </button>
@@ -529,7 +530,7 @@
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                             <div class="col">
-                                                <h5 class="text-center" id="exampleModalLabel">Captain Marvel
+                                                <h5 class="text-center text-dark" id="exampleModalLabel">Captain Marvel
                                                 </h5>
                                                 <!-- <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                     aria-label="Close"></button> -->
@@ -548,9 +549,9 @@
                                                             n'est jamais fini!! »
                                                         </a></p>
 
-                                                    <p class="text-center"><i class="mt-3"></i>Captain Marvel</p>
-                                                    <p class="text-center"><i class="mt-3 "></i>Carol Danvers</p>
-                                                    <p class="text-center"><i class="mt-3 "></i>Cheater
+                                                    <p class="text-center text-dark"><i class="mt-3"></i>Captain Marvel</p>
+                                                    <p class="text-center text-dark"><i class="mt-3 "></i>Carol Danvers</p>
+                                                    <p class="text-center text-dark"><i class="mt-3 "></i>Cheater
                                                     </p>
 
                                                 </div>
@@ -559,9 +560,9 @@
 
                                             </div>
                                             <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary"
+                                                <button type="button" class="btn btn-outline-danger"
                                                     data-bs-dismiss="modal">Oooh non!</button>
-                                                <button type="button" class="btn btn-primary">Go
+                                                <button type="button" class="btn btn-outline-success">Go
                                                     Captain Marvel!</button>
                                             </div>
                                         </div>
@@ -586,7 +587,7 @@
                             <td class="pt-4">
 
                                 <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
                                     data-bs-target="#gamora">
                                     Plus d'info
                                 </button>
@@ -599,7 +600,7 @@
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                             <div class="col">
-                                                <h5 class="text-center" id="exampleModalLabel">Gamora
+                                                <h5 class="text-center text-dark" id="exampleModalLabel">Gamora
                                                 </h5>
                                                 <!-- <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                     aria-label="Close"></button> -->
@@ -617,9 +618,9 @@
                                                             n'est jamais fini!! »
                                                         </a></p>
 
-                                                    <p class="text-center"><i class="mt-3"></i>Gamora</p>
-                                                    <p class="text-center"><i class="mt-3 "></i>Gamora</p>
-                                                    <p class="text-center"><i class="mt-3 "></i>Gardienne de la Galaxie
+                                                    <p class="text-center text-dark"><i class="mt-3"></i>Gamora</p>
+                                                    <p class="text-center text-dark"><i class="mt-3 "></i>Gamora</p>
+                                                    <p class="text-center text-dark"><i class="mt-3 "></i>Gardienne de la Galaxie
                                                     </p>
 
                                                 </div>
@@ -628,9 +629,9 @@
 
                                             </div>
                                             <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary"
+                                                <button type="button" class="btn btn-outline-danger"
                                                     data-bs-dismiss="modal">Oooh non!</button>
-                                                <button type="button" class="btn btn-primary">Go
+                                                <button type="button" class="btn btn-outline-success">Go
                                                     Gamora!</button>
                                             </div>
                                         </div>
@@ -655,7 +656,7 @@
                             <td class="pt-4">
 
                                 <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
                                     data-bs-target="#drax">
                                     Plus d'info
                                 </button>
@@ -668,7 +669,7 @@
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                             <div class="col">
-                                                <h5 class="text-center" id="exampleModalLabel">Drax
+                                                <h5 class="text-center text-dark" id="exampleModalLabel">Drax
                                                 </h5>
                                                 <!-- <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                     aria-label="Close"></button> -->
@@ -686,9 +687,9 @@
                                                             Gamora ??!! »
                                                         </a></p>
 
-                                                    <p class="text-center"><i class="mt-3"></i>Drax</p>
-                                                    <p class="text-center"><i class="mt-3 "></i>Drax le destructeur</p>
-                                                    <p class="text-center"><i class="mt-3 "></i>Gardien de la Galaxie
+                                                    <p class="text-center text-dark"><i class="mt-3"></i>Drax</p>
+                                                    <p class="text-center text-dark"><i class="mt-3 "></i>Drax le destructeur</p>
+                                                    <p class="text-center text-dark"><i class="mt-3 "></i>Gardien de la Galaxie
                                                     </p>
 
                                                 </div>
@@ -697,9 +698,9 @@
 
                                             </div>
                                             <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary"
+                                                <button type="button" class="btn btn-outline-danger"
                                                     data-bs-dismiss="modal">Oooh non!</button>
-                                                <button type="button" class="btn btn-primary">Go
+                                                <button type="button" class="btn btn-outline-success">Go
                                                     Drax!</button>
                                             </div>
                                         </div>
@@ -724,7 +725,7 @@
                             <td class="pt-4">
 
                                 <!-- Button trigger modal -->
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                <button type="button" class="btn btn-outline-success" data-bs-toggle="modal"
                                     data-bs-target="#panther">
                                     Plus d'info
                                 </button>
@@ -737,7 +738,7 @@
                                     <div class="modal-dialog">
                                         <div class="modal-content">
                                             <div class="col">
-                                                <h5 class="text-center" id="exampleModalLabel">Black Panther
+                                                <h5 class="text-center text-dark" id="exampleModalLabel">Black Panther
                                                 </h5>
                                                 <!-- <button type="button" class="btn-close" data-bs-dismiss="modal"
                                                     aria-label="Close"></button> -->
@@ -756,9 +757,9 @@
                                                             !! »
                                                         </a></p>
 
-                                                    <p class="text-center"><i class="mt-3"></i>T'Challa</p>
-                                                    <p class="text-center"><i class="mt-3 "></i>Black Panther</p>
-                                                    <p class="text-center"><i class="mt-3 "></i>Protecteur du Wakanda
+                                                    <p class="text-center text-dark"><i class="mt-3"></i>T'Challa</p>
+                                                    <p class="text-center text-dark"><i class="mt-3 "></i>Black Panther</p>
+                                                    <p class="text-center text-dark"><i class="mt-3 "></i>Protecteur du Wakanda
                                                     </p>
 
                                                 </div>
@@ -767,9 +768,9 @@
 
                                             </div>
                                             <div class="modal-footer">
-                                                <button type="button" class="btn btn-secondary"
+                                                <button type="button" class="btn btn-outline-danger"
                                                     data-bs-dismiss="modal">Oooh non!</button>
-                                                <button type="button" class="btn btn-primary">Go
+                                                <button type="button" class="btn btn-outline-success">Go
                                                     mon chaton!</button>
                                             </div>
                                         </div>
